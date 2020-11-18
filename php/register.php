@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bootshop online Shopping cart</title>
+    <title>3DJP Shop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -34,7 +34,7 @@
 <body>
 <div id="header">
 <div class="container">
-<div id="welcomeLine" class="row">
+<!-- <div id="welcomeLine" class="row">
 	<div class="span6">Welcome!<strong> User</strong></div>
 	<div class="span6">
 	<div class="pull-right">
@@ -47,7 +47,7 @@
 		<a href="product_summary.php"><span class="btn btn-mini btn-primary"><i class="icon-shopping-cart icon-white"></i> [ 3 ] Itemes in your cart </span> </a> 
 	</div>
 	</div>
-</div>
+</div> -->
 <!-- Navbar ================================================== -->
 <div id="logoArea" class="navbar">
 <a id="smallScreen" data-target="#topMenu" data-toggle="collapse" class="btn btn-navbar">
@@ -57,7 +57,7 @@
 </a>
   <div class="navbar-inner">
     <a class="brand" href="index.php"><img src="themes/images/logo.png" alt="Bootsshop"/></a>
-		<form class="form-inline navbar-search" method="post" action="products.php" >
+		<!-- <form class="form-inline navbar-search" method="post" action="products.php" >
 		<input id="srchFld" class="srchTxt" type="text" />
 		  <select class="srchTxt">
 			<option>All</option>
@@ -68,13 +68,14 @@
 			<option>BOOKS & ENTERTAINMENTS </option>
 		</select> 
 		  <button type="submit" id="submitButton" class="btn btn-primary">Go</button>
-    </form>
+    </form> -->
     <ul id="topMenu" class="nav pull-right">
-	 <li class=""><a href="special_offer.php">Specials Offer</a></li>
-	 <li class=""><a href="normal.php">Delivery</a></li>
-	 <li class=""><a href="contact.php">Contact</a></li>
+	<li class=""><a href="special_offer.php">Sale ID: xxxxxxxxxx</a></li>
+		<!-- <!-- <li class=""><a href="normal.php">Delivery</a></li> -->
+		<li class=""><a href="contact.php">Status: Sales Manager</a></li>
+	 
 	 <li class="">
-	 <a href="logout.php" role="button"  style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
+	 <a href="logout.php" role="button"  style="padding-right:0"><span class="btn btn-large btn-success">Logout</span></a>
 	<!-- <div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
 		  <div class="modal-header">
 			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
@@ -110,52 +111,59 @@
 	<div class="row">
 <!-- Sidebar ================================================== -->
 	<div id="sidebar" class="span3">
-		<div class="well well-small"><a id="myCart" href="product_summary.php"><img src="themes/images/ico-cart.png" alt="cart">3 Items in your cart  <span class="badge badge-warning pull-right">$155.00</span></a></div>
+		<!-- <div class="well well-small"><a id="myCart" href="product_summary.php"><img src="themes/images/ico-cart.png" alt="cart">3 Items in your cart  <span class="badge badge-warning pull-right">$155.00</span></a></div> -->
 		<ul id="sideManu" class="nav nav-tabs nav-stacked">
-			<li class="subMenu open"><a> ELECTRONICS [230]</a>
-				<ul>
-				<li><a class="active" href="products.php"><i class="icon-chevron-right"></i>Cameras (100) </a></li>
-				<li><a href="products.php"><i class="icon-chevron-right"></i>Computers, Tablets & laptop (30)</a></li>
-				<li><a href="products.php"><i class="icon-chevron-right"></i>Mobile Phone (80)</a></li>
-				<li><a href="products.php"><i class="icon-chevron-right"></i>Sound & Vision (15)</a></li>
-				</ul>
-			</li>
-			<li class="subMenu"><a> CLOTHES [840] </a>
-			<ul style="display:none">
-				<li><a href="products.php"><i class="icon-chevron-right"></i>Women's Clothing (45)</a></li>
-				<li><a href="products.php"><i class="icon-chevron-right"></i>Women's Shoes (8)</a></li>												
-				<li><a href="products.php"><i class="icon-chevron-right"></i>Women's Hand Bags (5)</a></li>	
-				<li><a href="products.php"><i class="icon-chevron-right"></i>Men's Clothings  (45)</a></li>
-				<li><a href="products.php"><i class="icon-chevron-right"></i>Men's Shoes (6)</a></li>												
-				<li><a href="products.php"><i class="icon-chevron-right"></i>Kids Clothing (5)</a></li>												
-				<li><a href="products.php"><i class="icon-chevron-right"></i>Kids Shoes (3)</a></li>												
+		<li class="subMenu open"><a> Products </a>
+		<ul>
+			<li><a class="active" href="p1.php"><i class="icon-chevron-right"></i>Classic Cars </a></li>
+			<li><a href="p2.php"><i class="icon-chevron-right"></i>Motorcycles</a></li>
+			<li><a href="p3.php"><i class="icon-chevron-right"></i>Planes</a></li>
+			<li><a href="p4.php"><i class="icon-chevron-right"></i>Ships</a></li>
+			<li><a href="p5.php"><i class="icon-chevron-right"></i>Trains</a></li>
+			<li><a href="p6.php"><i class="icon-chevron-right"></i>Trucks and Buses</a></li>
+			<li><a href="p7.php"><i class="icon-chevron-right"></i>Vintage Cars</a></li>
 			</ul>
-			</li>
-			<li class="subMenu"><a>FOOD AND BEVERAGES [1000]</a>
-				<ul style="display:none">
-				<li><a href="products.php"><i class="icon-chevron-right"></i>Angoves  (35)</a></li>
-				<li><a href="products.php"><i class="icon-chevron-right"></i>Bouchard Aine & Fils (8)</a></li>												
-				<li><a href="products.php"><i class="icon-chevron-right"></i>French Rabbit (5)</a></li>	
-				<li><a href="products.php"><i class="icon-chevron-right"></i>Louis Bernard  (45)</a></li>
-				<li><a href="products.php"><i class="icon-chevron-right"></i>BIB Wine (Bag in Box) (8)</a></li>												
-				<li><a href="products.php"><i class="icon-chevron-right"></i>Other Liquors & Wine (5)</a></li>												
-				<li><a href="products.php"><i class="icon-chevron-right"></i>Garden (3)</a></li>												
-				<li><a href="products.php"><i class="icon-chevron-right"></i>Khao Shong (11)</a></li>												
-			</ul>
-			</li>
-			<li><a href="products.php">HEALTH & BEAUTY [18]</a></li>
-			<li><a href="products.php">SPORTS & LEISURE [58]</a></li>
-			<li><a href="products.php">BOOKS & ENTERTAINMENTS [14]</a></li>
+		</li>
+		<li><a href="stockin.php">Stock-in</a></li>
+		<!-- <li class="subMenu"><a> Motorcycles </a>
+		<ul style="display:none">
+			<li><a href="products.php"><i class="icon-chevron-right"></i>Women's Clothing (45)</a></li>
+			<li><a href="products.php"><i class="icon-chevron-right"></i>Women's Shoes (8)</a></li>												
+			<li><a href="products.php"><i class="icon-chevron-right"></i>Women's Hand Bags (5)</a></li>	
+			<li><a href="products.php"><i class="icon-chevron-right"></i>Men's Clothings  (45)</a></li>
+			<li><a href="products.php"><i class="icon-chevron-right"></i>Men's Shoes (6)</a></li>												
+			<li><a href="products.php"><i class="icon-chevron-right"></i>Kids Clothing (5)</a></li>												
+			<li><a href="products.php"><i class="icon-chevron-right"></i>Kids Shoes (3)</a></li>												
 		</ul>
+		</li> -->
+		<!-- <li class="subMenu"><a>Planes</a>
+			<ul style="display:none">
+			<li><a href="products.php"><i class="icon-chevron-right"></i>Angoves  (35)</a></li>
+			<li><a href="products.php"><i class="icon-chevron-right"></i>Bouchard Aine & Fils (8)</a></li>												
+			<li><a href="products.php"><i class="icon-chevron-right"></i>French Rabbit (5)</a></li>	
+			<li><a href="products.php"><i class="icon-chevron-right"></i>Louis Bernard  (45)</a></li>
+			<li><a href="products.php"><i class="icon-chevron-right"></i>BIB Wine (Bag in Box) (8)</a></li>												
+			<li><a href="products.php"><i class="icon-chevron-right"></i>Other Liquors & Wine (5)</a></li>												
+			<li><a href="products.php"><i class="icon-chevron-right"></i>Garden (3)</a></li>												
+			<li><a href="products.php"><i class="icon-chevron-right"></i>Khao Shong (11)</a></li>												
+		</ul>
+		</li> -->
+		<li><a href="product_summary.php">Cart</a></li>
+		<li><a href="register.php">+ Add new Customer</a></li>
+		<li><a href="payment.php">Payment</a></li>
+		<li><a href="order.php">Orders</a></li>
+		<li><a href="management.php">Sale Management</a></li>
+		<li><a href="allproduct.php">All Products</a></li>
+	</ul>
 		<br/>
-		  <div class="thumbnail">
+		  <!-- <div class="thumbnail">
 			<img src="themes/images/products/panasonic.jpg" alt="Bootshop panasonoc New camera"/>
 			<div class="caption">
 			  <h5>Panasonic</h5>
 				<h4 style="text-align:center"><a class="btn" href="product_details.php"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
 			</div>
-		  </div><br/>
-			<div class="thumbnail">
+		  </div><br/> -->
+			<!-- <div class="thumbnail">
 				<img src="themes/images/products/kindle.png" title="Bootshop New Kindel" alt="Bootshop Kindel">
 				<div class="caption">
 				  <h5>Kindle</h5>
@@ -167,7 +175,7 @@
 				<div class="caption">
 				  <h5>Payment Methods</h5>
 				</div>
-			  </div>
+			  </div> -->
 	</div>
 <!-- Sidebar end=============================================== -->
 	<div class="span9">
@@ -177,6 +185,120 @@
     </ul>
 	<h3> Registration</h3>	
 	<div class="well">
+	<form action="data/insertdataC.php" method="post" name="customers">
+        <table border="1">
+            <tr>
+                <td>Customer ID : </td>
+                <?php 
+                require('connect.php');
+                $sql = '
+                SELECT MAX(customerNumber) AS max
+                FROM customers;
+                ';
+                $objQuery = mysqli_query($conn, $sql) or die("Error Query [" . $sql . "]");
+                ?>
+                <td>
+                <?php $objResult = mysqli_fetch_array($objQuery) ?>
+                <input type="text" name="customerNumber" value = <?php echo $objResult["max"]+1; ?>>
+                    </td>
+            </tr>
+            <!-- <tr>
+                <td>Title : </td>
+                <td><select name="Title">
+                        <option value=นาย>นาย</option>
+                        <option value=นางสาว>นางสาว</option>
+                        <option value=นาง>นาง</option>
+                    </select>
+                </td>
+            </tr> -->
+            <tr>
+                <td>Customer Name : </td>
+                <td><input type="text" name="Cname"></td>
+            </tr>
+            <tr>
+                <td>Contact Last Name : </td>
+                <td><input type="text" name="Lname"></td>
+            </tr>
+            <tr>
+                <td>Contact First Name : </td>
+                <td><input type="text" name="Fname"></td>
+            </tr>
+            <tr>
+                <td>Phone : </td>
+                <td><input type="text" name="phone"></td>
+            </tr>
+            <tr>
+                <td>AddressLine 1 : </td>
+                <td><input type="address" name="addr1"></td>
+            </tr>
+            <tr>
+                <td>AddressLine 2 : </td>
+                <td><input type="address" name="addr2"></td>
+            </tr>
+            <tr>
+                <td>City : </td>
+                <td><input type="text" name="city"></td>
+            </tr>
+            <tr>
+                <td>State : </td>
+                <td><input type="text" name="state"></td>
+            </tr>
+            <tr>
+                <td>Postal Code : </td>
+                <td><input type="text" name="postal"></td>
+            </tr>
+            <tr>
+                <td>Country : </td>
+                <td><input type="text" name="country"></td>
+            </tr>
+
+            <tr>
+                <td>Sales RepEmployee ID : </td>
+                <?php
+                require('connect.php');
+                $employeeID = $_REQUEST['employeeID'];
+                $sql = "
+                SELECT employeeNumber
+                FROM employees
+                WHERE employeeNumber = '$employeeID' 
+                ;
+                ";
+
+                $objQuery = mysqli_query($conn, $sql) or die("Error Query [" . $sql . "]");
+                ?>
+                <td>
+                <?php $objResult = mysqli_fetch_array($objQuery) ?>
+                <input type="text" name="employeeNumber" value = <?php echo $objResult["employeeNumber"]; ?>
+                ></td>
+            </tr>
+            <tr>
+                <td>Credit Limit : </td>
+                <td><input type="number" name="credit"></td>
+            </tr>
+
+            <!-- <tr>
+                <td>Sex : </td>
+                <td>
+                    <input type="radio" name="Sex" value="ชาย"> ชาย
+                    <input type="radio" name="Sex" value="หญิง"> หญิง
+                </td>
+            </tr> -->
+            
+            <!-- <tr>
+                <td>Education : </td>
+                <td><select name="Education">
+                        <option value=ปริญญาตรี>ปริญญาตรี</option>
+                        <option value=ปริญญาโท>ปริญญาโท</option>
+                        <option value=อื่นๆ>อื่นๆ</option>
+                    </select>
+                </td>
+            </tr> -->
+            
+        </table>
+
+        <br>
+        <input type="submit" value="Insert Data">
+    </form>
 	<!--
 	<div class="alert alert-info fade in">
 		<button type="button" class="close" data-dismiss="alert">×</button>
@@ -190,7 +312,7 @@
 		<button type="button" class="close" data-dismiss="alert">×</button>
 		<strong>Lorem Ipsum is simply</strong> dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
 	 </div> -->
-	<form class="form-horizontal" >
+	<!-- <form class="form-horizontal" >
 		<h4>Your personal information</h4>
 		<div class="control-group">
 		<label class="control-label">Title <sup>*</sup></label>
@@ -361,7 +483,7 @@
 				<input class="btn btn-large btn-success" type="submit" value="Register" />
 			</div>
 		</div>		
-	</form>
+	</form> -->
 </div>
 
 </div>
@@ -373,29 +495,9 @@
 	<div  id="footerSection">
 	<div class="container">
 		<div class="row">
-			<div class="span3">
-				<h5>ACCOUNT</h5>
-				<a href="login.php">YOUR ACCOUNT</a>
-				<a href="login.php">PERSONAL INFORMATION</a> 
-				<a href="login.php">ADDRESSES</a> 
-				<a href="login.php">DISCOUNT</a>  
-				<a href="login.php">ORDER HISTORY</a>
-			 </div>
-			<div class="span3">
-				<h5>INFORMATION</h5>
-				<a href="contact.php">CONTACT</a>  
-				<a href="register.php">REGISTRATION</a>  
-				<a href="legal_notice.php">LEGAL NOTICE</a>  
-				<a href="tac.php">TERMS AND CONDITIONS</a> 
-				<a href="faq.php">FAQ</a>
-			 </div>
-			<div class="span3">
-				<h5>OUR OFFERS</h5>
-				<a href="#">NEW PRODUCTS</a> 
-				<a href="#">TOP SELLERS</a>  
-				<a href="special_offer.php">SPECIAL OFFERS</a>  
-				<a href="#">MANUFACTURERS</a> 
-				<a href="#">SUPPLIERS</a> 
+			
+		Copyright © 2020 Chiang Mai University, All rights reserved.
+by Computer Engineering Group 3DJP
 			 </div>
 			<div id="socialMedia" class="span3 pull-right">
 				<h5>SOCIAL MEDIA </h5>
@@ -404,7 +506,7 @@
 				<a href="#"><img width="60" height="60" src="themes/images/youtube.png" title="youtube" alt="youtube"/></a>
 			 </div> 
 		 </div>
-		<p class="pull-right">&copy; Bootshop</p>
+		<p class="pull-right">&copy; 3DJP</p>
 	</div><!-- Container End -->
 	</div>
 <!-- Placed at the end of the document so the pages load faster ============================================= -->

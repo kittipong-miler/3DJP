@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bootshop online Shopping cart</title>
+    <title>3DJP Shop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -117,13 +117,13 @@
 	<ul id="sideManu" class="nav nav-tabs nav-stacked">
 		<li class="subMenu open"><a> Products </a>
 			<ul>
-			<li><a class="active" href="products.php"><i class="icon-chevron-right"></i>Classic Cars </a></li>
-			<li><a href="products.php"><i class="icon-chevron-right"></i>Motorcycles</a></li>
-			<li><a href="products.php"><i class="icon-chevron-right"></i>Planes</a></li>
-			<li><a href="products.php"><i class="icon-chevron-right"></i>Ships</a></li>
-			<li><a href="products.php"><i class="icon-chevron-right"></i>Trains</a></li>
-			<li><a href="products.php"><i class="icon-chevron-right"></i>Trucks and Buses</a></li>
-			<li><a href="products.php"><i class="icon-chevron-right"></i>Vintage Cars</a></li>
+			<li><a class="active" href="p1.php"><i class="icon-chevron-right"></i>Classic Cars </a></li>
+			<li><a href="p2.php"><i class="icon-chevron-right"></i>Motorcycles</a></li>
+			<li><a href="p3.php"><i class="icon-chevron-right"></i>Planes</a></li>
+			<li><a href="p4.php"><i class="icon-chevron-right"></i>Ships</a></li>
+			<li><a href="p5.php"><i class="icon-chevron-right"></i>Trains</a></li>
+			<li><a href="p6.php"><i class="icon-chevron-right"></i>Trucks and Buses</a></li>
+			<li><a href="p7.php"><i class="icon-chevron-right"></i>Vintage Cars</a></li>
 			</ul>
 		</li>
 		<li><a href="stockin.php">Stock-in</a></li>
@@ -155,6 +155,8 @@
 		<li><a href="payment.php">Payment</a></li>
 		<li><a href="order.php">Orders</a></li>
 		<li><a href="management.php">Sale Management</a></li>
+		<li><a href="allproduct.php">All Products</a></li>
+		
 	</ul>
 	<br/>
 	  <!-- <div class="thumbnail">
@@ -241,7 +243,7 @@
 <!-- Sidebar end=============================================== -->
 	<div class="span9">
     <ul class="breadcrumb">
-		<li><a href="index.php">Home</a> <span class="divider">/</span></li>
+		<li><a href="indexlogin.php">Home</a> <span class="divider">/</span></li>
 		<li class="active">Products Name</li>
     </ul>
 	<h3> Products Name <small class="pull-right"> 40 products are available </small></h3>	
@@ -523,7 +525,7 @@
 	</div>
 </div>
 
-	<a href="compair.php" class="btn btn-large pull-right">Compair Product</a>
+	
 	<div class="pagination">
 			<ul>
 			<li><a href="#">&lsaquo;</a></li>
@@ -545,29 +547,8 @@
 	<div  id="footerSection">
 	<div class="container">
 		<div class="row">
-			<div class="span3">
-				<h5>ACCOUNT</h5>
-				<a href="login.php">YOUR ACCOUNT</a>
-				<a href="login.php">PERSONAL INFORMATION</a> 
-				<a href="login.php">ADDRESSES</a> 
-				<a href="login.php">DISCOUNT</a>  
-				<a href="login.php">ORDER HISTORY</a>
-			 </div>
-			<div class="span3">
-				<h5>INFORMATION</h5>
-				<a href="contact.php">CONTACT</a>  
-				<a href="register.php">REGISTRATION</a>  
-				<a href="legal_notice.php">LEGAL NOTICE</a>  
-				<a href="tac.php">TERMS AND CONDITIONS</a> 
-				<a href="faq.php">FAQ</a>
-			 </div>
-			<div class="span3">
-				<h5>OUR OFFERS</h5>
-				<a href="#">NEW PRODUCTS</a> 
-				<a href="#">TOP SELLERS</a>  
-				<a href="special_offer.php">SPECIAL OFFERS</a>  
-				<a href="#">MANUFACTURERS</a> 
-				<a href="#">SUPPLIERS</a> 
+		Copyright © 2020 Chiang Mai University, All rights reserved.
+by Computer Engineering Group 3DJP
 			 </div>
 			<div id="socialMedia" class="span3 pull-right">
 				<h5>SOCIAL MEDIA </h5>
@@ -576,7 +557,7 @@
 				<a href="#"><img width="60" height="60" src="themes/images/youtube.png" title="youtube" alt="youtube"/></a>
 			 </div> 
 		 </div>
-		<p class="pull-right">&copy; Bootshop</p>
+		<p class="pull-right">&copy; 3DJP</p>
 	</div><!-- Container End -->
 	</div>
 <!-- Placed at the end of the document so the pages load faster ============================================= -->
